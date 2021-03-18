@@ -1,6 +1,9 @@
 == Innovate Everywhere Recipes
 
-You can view these recipes two ways:
+You can view these recipes three ways:
+
+* Clone the repo and open MAIN.recipes.adoc locally in a browser that supports
+  AsciiDoc or in another tool such as asciidoctor
 
 * Build a local copy in the format of your choosing.
 
@@ -8,6 +11,8 @@ You can view these recipes two ways:
 <<adoc/MAIN.recipes.adoc#>>.
 
 === Known Issues
+
+The github preview does not display images correctly.
 
 The pdf build stretches images to fill the page, distoring them
 and consuming extra space in a way that is not visually appealing.
