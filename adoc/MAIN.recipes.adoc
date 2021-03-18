@@ -14,31 +14,10 @@ the tastebuds and impress your friends! Innovation doesn't stop at
 dinner time, its time to bring open source to your kitchen!
 Have a lot of fun!
 
-
-ifdef::env-github[]
-<<entrees.adoc#, Entrees>>
-endif::[]
-ifndef::env-github[]
 include::entrees.adoc[]
-endif::[]
 
-ifdef::env-github[]
-<<sides.adoc#, Sides>>
-endif::[]
-ifndef::env-github[]
 include::sides.adoc[]
-endif::[]
 
-ifdef::env-github[]
-<<desserts.adoc#, Desserts>>
-endif::[]
-ifndef::env-github[]
 include::desserts.adoc[]
-endif::[]
 
-ifdef::env-github[]
-<<beverages.adoc#, Beverages>>
-endif::[]
-ifndef::env-github[]
 include::beverages.adoc[]
-endif::[]
