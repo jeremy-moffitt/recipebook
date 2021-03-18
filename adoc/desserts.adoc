@@ -1,0 +1,7 @@
+[id='sec.desserts']
+== Desserts
+
+Desserts bring a fanciful finsh to a proper meal, like the sunset after a
+great day, dessert reminds us of the joy we experienced during our meal.
+
+include::desserts/caramel_apple_pie.adoc[] 
