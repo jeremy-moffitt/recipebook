@@ -61,19 +61,7 @@ output file. It is based on AsciiDoctor's AsciiDoc-to-DocBook-XML conversion,
 the result of which is then further converted into HTML/PDF using DAPS and the
 DocBook XSL stylesheets.
 
-For this reason, the central file `adoc/MAIN.recipes.adoc` contains
-somewhat unsightly `ifdef`/`ifndef` blocks that check whether the file is
-displayed in the GitHub preview, switching between using links to other files
+For this reason, the central file `adoc/MAIN.recipes.adoc` and the top level
+adoc files contain somewhat unsightly `ifdef`/`ifndef` blocks that check whether 
+the file is displayed in the GitHub preview, switching between using links to other files
 for GitHub and `include::` statement in all other cases.
-
-The issue of not being able to embed other AsciiDoc files when using the GitHub
-preview also affects the "attribute entries" file `adoc/entities.adoc`.
-Attribute entries allow easily referencing text used multiple (similar to
-entities in XML).
-Hence, for the GitHub preview, each file contains a copy of the entire attribute
-entry file at the top. When updating attribute entries, always make sure to:
-
-  . Edit `adoc/entities.adoc` first (these are used for the regular build)
-  . Run `make update-entries` to update the dependent attribute entries in each
-  of the `*.adoc` files (these are used for GitHub previews).
-
