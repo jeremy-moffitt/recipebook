@@ -1,12 +1,37 @@
-[id='sec.caramel_apple_pie']
 
-ifdef::env-github[]
-:imagesdir: ../images
-endif::[]
-ifndef::env-github[]
 :imagesdir: images
-endif::[]
 
+:docinfo:
+
+= The Innovate Everywhere Recipe Book
+:toc:
+
+Welcome to the Innovate Everywhere Recipe Book!
+Open Source contributors from around the globe have contributed recipes
+to share some of the tastiest creations around. Within these virtual
+pages find entrees, sides, desserts, and drinks that will tantalize
+the tastebuds and impress your friends! Innovation doesn't stop at
+dinner time, its time to bring open source to your kitchen!
+Have a lot of fun!
+
+[id=sec.Entrees]
+== Entrees
+
+Entrees are dishes that are the focal point of a meal.
+
+[id='sec.sides']
+== Side Dishes
+
+Side dishes complete a meal, providing a compliment to the entree like
+the bass line in a song... essential components for a full experience.
+
+[id='sec.desserts']
+== Desserts
+
+Desserts bring a fanciful finsh to a proper meal, like the sunset after a
+great day, dessert reminds us of the joy we experienced during our meal.
+
+[id='sec.caramel_apple_pie']
 
 === Caramel Apple Pie
 
@@ -72,4 +97,11 @@ image::caramel_apple_pie/pie_with_caramel.jpg[Pie After adding Caramel, 640, 480
 A slice of the finished pie!
 
 image::caramel_apple_pie/pie_on_plate.jpg[Slice of pie on a plate, 640, 480]
+
+[id='sec.beverages']
+== Beverages
+
+The perfect beverage may accompany a meal or stand all on its own.
+Perhaps a bit bubbly, or maybe a sweet fruit smoothie, beverages
+cover the gamut of experiences from refreshing to stimulating.
 
